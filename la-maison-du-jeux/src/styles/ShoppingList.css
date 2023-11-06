@@ -1,0 +1,23 @@
+.lmj-shopping-list {
+	width: 100%;
+	background-color: rgba(239, 226, 161, 0.389);
+}
+
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.lmj-shopping-cart-plus {
+	cursor: pointer;
+	position: relative;
+	transition: 0.3s;
+	bottom: 50px;
+	left: 200px;
+}
+.lmj-shopping-cart-plus:hover
+{
+	color: #31b472;
+}
